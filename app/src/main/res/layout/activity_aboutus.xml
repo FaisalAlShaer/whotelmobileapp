@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/aboutus2"
+    tools:context=".aboutus">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="287dp"
+        android:layout_height="343dp"
+        android:fontFamily="@font/hedvig"
+        android:padding="16dp"
+        android:text="W HOTEL IS A LUXURIOUS HOTEL LOCATED IN MUSCAT, OMAN. IT WAS CONSTRUCTED FOR OMRAN, A LEADING DEVELOPMENT GROUP IN OMAN WHICH IS WORKING ON GROWING THE TOURISM INDUSTRY IN OMAN. W HOTEL OPENED ITS DOORS IN APRIL 2019, WITH IT IS AMAZING T SHAPED TO GIVE ALL THE ROOMS AN OCEAN VIEW FOR ALL ITS CUSTOMERS."
+        android:textAlignment="center"
+        android:textColor="#cba328"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/abusbtn"
+        android:layout_width="188dp"
+        android:layout_height="48dp"
+        android:background="@drawable/btn1"
+        android:fontFamily="@font/hedvig"
+        android:text="HOME PAGE"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.704" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
